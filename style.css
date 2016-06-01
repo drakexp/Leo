@@ -1,0 +1,14 @@
+body {
+	background-color: lightblue;
+}
+
+.welcome {  /* comment */
+	font-family: Arial;
+	color: yellow;
+	font-weight: bold;
+	text-align: center;
+}
+
+#par {
+	background-color: white;
+}
