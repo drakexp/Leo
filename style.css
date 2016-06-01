@@ -1,14 +1,45 @@
-body {
-	background-color: lightblue;
+a {
+   text-decoration: none;
+   color: white;
+   font-family: Arial;
+   font-weight: bold;
 }
 
-.welcome {  /* comment */
-	font-family: Arial;
-	color: yellow;
-	font-weight: bold;
-	text-align: center;
+header {
+   background-color: lightblue;
+   height: 100px;
+   margin: -10px;
 }
 
-#par {
-	background-color: white;
+#head-div {
+   float:left;
+   width:50%;
+   padding-left: 20px;
+   padding-top: 20px;
+   font-size: 200%;
+   font-weight: bold;
+   font-family: lucida;
+}
+
+ul {
+   list-style: none;
+}
+
+li {
+   display: inline;
+   text-align: center;
+   padding-left: 20px;
+}
+
+nav {
+   float: right; 
+   width: 50%;
+   text-align: right;
+   padding-right: 20px;
+}
+
+#socialmedia {
+   background-color: black;
+   height: 20px;
+   margin: -25px;
 }
