@@ -1,45 +1,171 @@
-a {
-   text-decoration: none;
-   color: white;
-   font-family: Arial;
-   font-weight: bold;
-}
-
 header {
-   background-color: lightblue;
-   height: 100px;
-   margin: -10px;
+   background-image: url("Leo(1).jpg");
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-width: 1080px;
+   min-height: 360px;
+   margin-left: -8px;
+   margin-top: -7px;
 }
 
-#head-div {
+#toptitle {
    float:left;
-   width:50%;
-   padding-left: 20px;
-   padding-top: 20px;
+   position: absolute;
+   background-color:#E5E4E2;
+   text-align:center;
+   min-width: 360px;
+   height: 80px;
+   padding-left: fixed;
+   margin-top:80px;
+   margin-left:90px;
+}
+
+#toplink {
+   color:black;
+   text-decoration: none;
    font-size: 200%;
    font-weight: bold;
-   font-family: lucida;
+   font-family: trebuchet;
+   letter-spacing: 20px ;
 }
 
-ul {
-   list-style: none;
-}
-
-li {
-   display: inline;
-   text-align: center;
-   padding-left: 20px;
-}
-
-nav {
-   float: right; 
-   width: 50%;
+#rightheader {
+   color: white;
+   position:absolute;
    text-align: right;
-   padding-right: 20px;
+   letter-spacing: 3px ;
+   float:left;
+   min-width: 720px;
+   padding-top: 120px;
+   padding-left: 250px;
+   font-family: georgia;
+   clear right;
 }
 
-#socialmedia {
-   background-color: black;
-   height: 20px;
-   margin: -25px;
+#menubar {
+   background-color: #566D7E;
+   height: 50px;
+   min-width: 1080px;
+   margin-left: -9px;
+   margin-right: -8px;
+   margin-top: -8px;
+}
+
+#leftmenu {
+   width: 48%;
+   float:left;
+   text-align:left;
+}
+
+#rightmenu {
+   width:50%;
+   text-align:right;
+   float:left;
+   clear:right;
+
+}
+
+.menulink {
+   display:inline;
+   text-decoration:none;
+   font-weight: bold;
+   color:black;
+   font-family: arial;
+}
+
+.menu {
+   display: inline;
+   padding-left: 5px;
+}
+
+#main-div {
+   min-width: 1080px
+   height: 100%px;
+}
+
+#left {
+   width:50%;
+   float:left;
+   text-align:center;
+   font-family: arial;
+}
+
+#right {
+   width:50%;
+   float: left;
+   text-align:center;
+   font-family: arial;
+   clear:right;
+}
+
+.shrink {
+   width: 500px;
+}
+
+#photo-div {
+   min-width: 1080px;
+   height:100%;
+}
+
+#p1{
+   width:25%;
+   height:300px;
+   float:left;
+   background-image: url("Leo (1).jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#p2{
+   width:25%;
+   height:300px;
+   float:left;
+   background-image: url("Leo (2).jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#p3{
+   width:25%;
+   height:300px;
+   float:left;
+   background-image: url("Leo (6).jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#p4{
+   width:25%;
+   height:300px;
+   float:left;
+   background-image: url("Leo.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#about-div {
+   min-width: 1080px
+   height: 100%;
+}
+
+#aleft{
+   width: 33%;
+   float:left;
+   text-align:left;
+}
+
+#center {
+   width: 33%;
+   float:left;
+   text-align:left;
+}
+
+#aright{
+   width: 33%;
+   float:left;
+   text-align:left;
+   clear:right;
 }
